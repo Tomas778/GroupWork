@@ -10,18 +10,16 @@ namespace GroupWork
     {
         public double Kintamasis1()  //Inesa
         {
-            double pi = 3.14;
             double r = 6371;
-            double sum = pi * r;
-            double result = Math.Pow(sum, 2);
+            double result = Math.PI * Math.Pow(r, 2);
             //Console.WriteLine("zemes rutulio plotas yra :" + result);
             return result;
         }
 
         public double Kintamasis2() //Nerijus
         {
-            double pi = 3.1415926535f, r = 6371, V;
-            V = 4f / 3f * pi * (r * r * r);
+            double r = 6371, V;
+            V = 4f / 3f * Math.PI * (r * r * r);
             return V;
         }
 
