@@ -18,9 +18,11 @@ namespace GroupWork
             return result;
         }
 
-        public void Kintamasis2() //Nerijus
+        public double Kintamasis2() //Nerijus
         {
-
+            double pi = 3.1415926535f, r = 6371, V;
+            V = 4f / 3f * pi * (r * r * r);
+            return V;
         }
 
         public double Kintamasis3() //Tomas
