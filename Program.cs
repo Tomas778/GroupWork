@@ -12,13 +12,16 @@ namespace GroupWork
         {
             Console.Write("*******************\n\n");
             Skaiciavimas Musurez = new Skaiciavimas();
-            Musurez.Kintamasis1(); //call Inesa
-            Musurez.Kintamasis2(); //call Nerijus
-            Musurez.Kintamasis3(); //call Tomas
+            //Musurez.Kintamasis1(); //call Inesa
+            //Musurez.Kintamasis2(); //call Nerijus
+            //Musurez.Kintamasis3(); //call Tomas
 
             Musurez.Paskutinis();// ?????
 
             Console.Write("*******************\n\n");
+            Console.ReadKey();
+
+
         }
     }
 }
