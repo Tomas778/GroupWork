@@ -8,9 +8,14 @@ namespace GroupWork
 {
     public class Skaiciavimas
     {
-        public void Kintamasis1()  //Inesa
+        public double Kintamasis1()  //Inesa
         {
-
+            double pi = 3.14;
+            double r = 6371;
+            double sum = pi * r;
+            double result = Math.Pow(sum, 2);
+            //Console.WriteLine("zemes rutulio plotas yra :" + result);
+            return result;
         }
 
         public void Kintamasis2() //Nerijus
