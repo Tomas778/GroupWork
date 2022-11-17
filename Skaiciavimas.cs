@@ -18,13 +18,28 @@ namespace GroupWork
 
         }
 
-        public void Kintamasis3() //Tomas
+        public double Kintamasis3() //Tomas
         {
-
+            double a = 10.0, b = 15.0, c;
+            c= Math.Round(Math.Sqrt(a*a + b*b), 2);
+            return c;
         }
 
         public void Paskutinis() //Tomas
         {
+            double kintamasis1 = Kintamasis1();
+            double kintamasis2 = Kintamasis2();
+            double kintamasis3 = Kintamasis3();
+
+            Console.WriteLine("Viso kintamuju: 3");
+            Console.WriteLine("Kintamasis1: " + kintamasis1);
+            Console.WriteLine("Kintamasis2: " + kintamasis2);
+            Console.WriteLine("Kintamasis3: " + kintamasis3);
+
+             double suma = kintamasis1 + kintamasis2 + kintamasis3;
+             double vidurkis = kintamasis1 + kintamasis2 + kintamasis3 / 3;
+            Console.WriteLine("Suma: " + suma);
+            Console.WriteLine("Vidurkis: " + vidurkis);
 
         }
 
